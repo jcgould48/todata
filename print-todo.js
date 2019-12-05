@@ -2,6 +2,7 @@ const printTodo = function(todo) {
   // Use `document.createElement` to make an <li>
   const li = document.createElement('li');
   li.innerText = todo.text;
+  // li.innerText = addTodo(todo);
 
   // Query the ul and put it in a variable.
   const ul = document.querySelector('.todo-list');
@@ -25,5 +26,6 @@ const printTodo = function(todo) {
     // TODO: find the correct todo in your data to toggle the completeness of!
     
   })
+  
 }
 
