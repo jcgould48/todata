@@ -5,23 +5,18 @@
 // }
 
 const addTodo = (text) => {
-  const priorityOption = document.querySelector('.priority');
+  const priority = document.querySelector('.priority');
 
   let todo = {
     text: text,
     id: todos.length,
     complete: false,
-    priority: Number(priorityOption.value),
+    priority: Number(priority.value),
   }
   todos.push(todo);
 
   return todo;
 }
 
-const userInput = document.querySelector('.todo-input');
 
-document.querySelector('.add-todo').addEventListener('click', function(){
-  printTodo(addTodo(userInput.value));
-  userInput.value = '';
-})
 

@@ -1,11 +1,6 @@
-document.querySelector('.add-todo').addEventListener('click', ()=>{
-    const entry = {
-            text: document.querySelector('.todo-input').value,
-            id: todos.length,
-            complete: false,
-            priority: Number(document.querySelector('.priority').value),
-        }
-        addTodo(entry)
-        refreshTodos()
-        document.querySelector('.todo-input').value=''
+const input = document.querySelector('.todo-input');
+
+document.querySelector('.add-todo').addEventListener('click', function(){
+  printTodo(addTodo(input.value));
+  input.value = '';
 })
