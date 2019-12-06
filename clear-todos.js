@@ -4,3 +4,4 @@ const clearTodos = function() {
     list.firstChild.remove();
   }
 }
+

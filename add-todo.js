@@ -13,7 +13,7 @@ const addTodo = (text) => {
     complete: false,
     priority: Number(priority.value),
   }
-  todos.push(todo);
+  currentTodos.push(todo);
 
   return todo;
 }

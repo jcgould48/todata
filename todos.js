@@ -41,4 +41,6 @@ const todos = [
 let currentTodos = [...todos];
 
 
-module.exports = todos;
+if(module){
+  module.exports = todos;
+}
