@@ -1,4 +1,4 @@
-document.querySelector('.high-priority-first').addEventListener('click', (event) => {
+document.querySelector('.high-priority').addEventListener('click', (event) => {
     const {target} = event;
   
     if (target.innerText === 'Only High Priority') {
@@ -7,9 +7,6 @@ document.querySelector('.high-priority-first').addEventListener('click', (event)
     } else {
       target.innerText = 'Only High Priority';
       currentTodos = todos.slice();
-      if (showingPriorities) {
-        currentTodos = namesAndPriorities(currentTodos);
-      }
     }
   
     refreshTodos()
