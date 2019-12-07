@@ -1,11 +1,11 @@
 
-const clearTodos = function() {
-    const list = document.querySelectorAll('.complete');
-    while(list.hasChildNodes()) {
-      list.firstChild.remove();
-    }
-  }
+// const clearCompletes = function() {
+//     const list = document.querySelectorAll('ul .complete');
+//     while(list.hasChildNodes()) {
+//       list.firstChild.remove();
+//     }
+//   }
 
 
 
-document.querySelector('clear.complete').addEventListener('click')
+// document.querySelector('.clear-complete').addEventListener('click',clearCompletes())

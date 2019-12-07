@@ -135,21 +135,21 @@ const notCompleteFirst = (todos) => twoPileSort(todos, (todo) => !todo.complete)
 const priority2First = (todos) => twoPileSort(todos, (todo) => todo.priority === 2)
 
 
-module.exports = {
-  map,
-  filter,
-  twoPileSort,
-  getTodoName,
-  getCompleteness,
-  getPriority,
-  isComplete,
-  isHighPriority,
-  names,
-  namesAndPriorities,
-  justNotComplete,
-  justComplete,
-  priority2Only,
-  priority1Only,
-  notCompleteFirst,
-  priority2First,
-}
+// module.exports = {
+//   map,
+//   filter,
+//   twoPileSort,
+//   getTodoName,
+//   getCompleteness,
+//   getPriority,
+//   isComplete,
+//   isHighPriority,
+//   names,
+//   namesAndPriorities,
+//   justNotComplete,
+//   justComplete,
+//   priority2Only,
+//   priority1Only,
+//   notCompleteFirst,
+//   priority2First,
+// }
