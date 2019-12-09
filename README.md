@@ -4,7 +4,7 @@ Using the back end we've built, let's implement the following features:
 
 * Show priorities in addition to text.
 * Show only not complete items.
-* Show only high priority items.
+* Sho w only high priority items.
 * Move completed items to the bottom.
 * Move high priority items to the top.
 
